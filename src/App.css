@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+h2{
+  flex:1;
+}
+.selector{
+  flex-direction: row;
+  margin-top: 10px;
+}
+.selector>a{
+  font-size: 16px;
+  margin:0 10px 0 10px;
+}
+.act{
+  color:brown;
+  font-weight: bold;
+}
+
+
+

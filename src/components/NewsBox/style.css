@@ -1,0 +1,35 @@
+.newsbox{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    padding: 10px;
+    max-width: 220px;
+}
+.newsbox:hover{
+    border:1px solid royalblue;
+}
+.img{
+    flex: 1;
+    width: 200px;
+    height: 200px;
+}
+.title{
+    color:black;
+    font-size: 14px;
+    width: 200px;
+    height: 42px;
+    word-wrap: break-word; 
+    overflow: hidden;
+}
+.detail{
+    display: flex;
+    flex:2;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.detail >span{
+    flex:1;
+    color: gray;
+    font-size: 10px;
+}
